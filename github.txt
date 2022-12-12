@@ -1,0 +1,42 @@
+Setup SSH Key
+
+for window
+
+ssh-keygen
+
+(check git version)
+git --version
+
+=>One time install
+git config --global user.name "kaungsethein"
+
+
+=check user.name
+git config user.name
+
+=>input email
+git config --global user.email "kaungsethein.ksh123@gmail.com"
+
+=check user.email
+git config user.email
+
+=>Always
+first step(one time for one project)
+git init
+git remote add origin "git@github.com:ryanjep/pttsoftware.git"
+
+
+second step(always)
+
+
+
+
+
+
+
+for linux
+
+mkdir .ssh
+cd ~/.ssh
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
